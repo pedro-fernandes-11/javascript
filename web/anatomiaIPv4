@@ -1,0 +1,39 @@
+Cada parte de 0 á 255
+Meu IPv4: 192.168.15.45
+Máscara de sub-rede: 255.255.255.0
+
+Meu IPv4 (radmin): 26.63.91.146
+Máscara de sub-rede: 255.0.0.0
+
+Meu IPv4 (hamachi): 25.89.107.175
+Máscara de sub-rede: 255.0.0.0
+
+{==================
+Classe A:
+
+rede.host.host.host
+192.168.15.45
+
+    Máscara de sub-rede:
+    255.0.0.0
+==================}
+
+{==================
+Classe B:
+
+rede.rede.host.host
+192.168.15.45
+
+    Máscara de sub-rede:
+    255.255.0.0
+==================}
+
+{==================
+Classe C (mais comum):
+
+rede.rede.rede.host
+192.168.15.45
+
+    Máscara de sub-rede:
+    255.255.255.0
+==================}

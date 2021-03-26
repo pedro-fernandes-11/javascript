@@ -1,0 +1,34 @@
+Hipertext Transfer Protocol
+Porta padrão: 80
+
+Protocolo de comunicação baseado em requisição e resposta
+Requisição feita pelo usuário em formato de URL + Params (Exemplo: http://www.google.com.br/search?q=protocolo+http)
+Resposta retornada pelo servidor, podendo ser em formato HTML (Hipertext Markup Language), que por sua vez faz o acesso
+de arquivos CSS e JS.
+
+A definição de hipertexto é justamente o "hiper texto", figurativamente o texto que tem acesso a outro texto e assim
+por diante.
+
+Fluxo HTTP:
+Usuário informa o URL -> Browser gera a requisição -> Servidor gera a resposta -> Browser exibe a página
+
+Métodos do HTTP:
+Get & Post (mais frequentes)
+Put, Delete, Trace, Options, Connect, Head
+
+Requisição e Resposta:
+Cliente informa o servidor do URL + Params e
+Servidor retorna a resposta com HTML, CSS, JS, arquivos multimídia
+
+Grupo de Status HTTP:
+1XX = Informação
+2XX = Sucesso
+3XX = Redirecionamento
+4XX = Erro no Cliente (Erro 404 por exemplo, tentar acessar uma URL que não existe)
+5XX = Erro no Servidor
+
+HTTPS (Hipertext Transfer Protocol Secure):
+Porta padrão: 443
+
+É uma implementação do HTTP que faz com que os dados transmitidos por meio de uma conexão criptografada ue se verifique 
+a autenticidade do servidor e do cliente por meio de certificados digitais.

@@ -1,0 +1,13 @@
+Porta é um processo, caracterizado por executar determinadas tarefas em portas diferentes para,
+se outro computador quiser acessar um determinado processo que esteja ocorrendo em um computador,
+ele determine o computador, pelo IP, certamente da mesma rede e a porta na qual o processo está
+sendo executado, usando como exemplo um IPv4 com máscara de sub-rede 255.0.0.0:
+
+Computador 25.90.154.91:
+
+Quer acessar o Computador 25.89.107.175 (mesma rede 25) no processo 8080:
+25.89.107.175:8080
+
+Dentro de um computador, estando ele conectado á rede e executando vários processos ao mesmo tempo, 
+não é suficiente o endereço IP para acessar algum processo. Se faz necessário o uso de porta para 
+definir qual processo será acessado.
